@@ -1,0 +1,248 @@
+body{
+ width:100%;
+ height:100%;
+ background-color:#4aaaa5;
+ font-family:'Arial','Helvetica Neue',Helvetica, sans-serif;
+ font-size:18px;
+ color:#777777;
+ overflow:auto;
+}
+
+/** Full Width containers **/
+header{
+ height:90px;
+ width:100%;
+ background-color:#ffffff;
+ border-bottom: thick solid #cccccc;
+ padding:0px;
+ position:absolute;
+ overflow:visible;
+ margin-left:-10px;
+ margin-top:-20px;
+}
+
+/** Shows the background image in the wide container **/
+.wide-container{  
+ width:100%;
+ height:100%;
+ padding:10px 10px 10px 10px;
+ margin:65px -20px 30px -20px;
+ position:absolute;
+ /*background-image:url('../images/background.png'); */
+ overflow:visible;
+ box-sizing:border-box;
+}
+
+/** 960px body size container for Header, body and footer **/
+.contents{
+ width:960px;
+ position:relative;
+ margin:0 auto;
+ box-sizing:border-box;
+}
+
+/** Header data starts here **/
+div#name-tag{
+ width: 200px;
+ height: 55px;
+ background-color: #4aaaa5;
+ font-family: 'Georgia', Times, Times New Roman, serif;
+ position: relative;
+ text-align: center;
+ padding: 20px;
+ font-size: 30px;
+ color: #ffffff;
+ margin:25px 0px 0px 15px;
+}
+
+div#nav{	
+ width:270px;
+ position:absolute;
+ height:40px;
+ right:30px;
+ top:20px;
+ padding:5px;
+ color:#777777;
+ background-color:#ffffff;
+ box-sizing:border-box;
+}
+
+ul{
+ width:270px;
+ left:0px;
+ padding-left:0px; 
+}
+
+li{
+ display:inline-block;
+ text-align:center;
+ margin-right:10px;
+}
+
+a:link{
+ text-decoration:none;
+ color:#777777;
+}
+
+a:visited{
+ text-decoration:none;
+ color:#777777;
+}
+
+a:hover {
+ text-decoration: none;
+ text-shadow: 0px 2px #4aaaa5;
+ box-shadow: 0px 5px #4aaaa5; 
+}
+
+/** Main body styles **/
+.container{
+ border:thick solid #dddddd;
+ overflow-y:visible;
+ position:absolute; 
+ margin:0px 0px 50px 0px;
+ background-image:url('../images/background.png');
+ box-sizing:border-box;
+}
+
+section#Details{
+ width:610px;
+ height:90%;
+ border-color:#dddddd;
+ background-color:#ffffff;
+ float:left;
+ margin:20px 20px 20px 20px;
+ padding:20px;
+ font-size:16px;
+ box-sizing:border-box;
+}
+
+h2,h3{
+ color:#4aaaa5;
+ font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2{
+ font-size:30px;
+}
+
+p.paragraph{ 
+ text-align:justify;
+ line-height:30px;
+ font-size:14px;
+}
+
+div#image{
+ float:left;
+ margin:10px;
+}
+
+img#Bio{
+ width:200px;
+ height:200px;
+}
+
+aside{
+ width:250px;
+ display:block;
+ background-color:#ffffff;
+ float:left;
+ margin:20px 20px 0px 0px;
+ padding:10px;
+ text-align:center;
+ box-sizing:border-box;
+}
+
+.links{
+ width:60px;
+ height:60px;
+}
+
+hr{
+ box-shadow :0px 0px 5px #888888;
+}
+
+/** Footer styles **/
+div#footer-style{
+ height:30px;
+ width:100%; 
+ background-color:#666666;
+ position:fixed ;
+ bottom:0px;
+ padding:10px;
+ margin-left:-10px;
+}
+
+p#footer{
+ text-align:center;
+ font-size:12px;
+ color:#ffffff;
+}
+
+/** Extra styles for Contact html page **/
+.form{
+ line-height:20px; 
+}
+
+input[type=text] {
+ width:100%;
+ padding: 10px 10px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+
+textarea{
+ height:80px;
+ width:100%;
+ font-family:'Arial','Helvetica Neue',Helvetica, sans-serif;
+}
+
+button#submit{
+ width:100px;
+ background-color:#4aaaa5;
+ padding:10px;
+ font-size:16px;
+ color:#ffffff;
+}
+
+/** Portfolio html page extra styles **/
+
+div.portfolio{
+ box-sizing:border-box;
+ width:245px;
+ height:180px;
+ float:left;
+ margin:10px 10px 10px 10px;
+}
+
+div#pf-img1{
+ background-image:url("../images/pf1.jpg");  
+}
+
+div#pf-img2{
+ background-image:url("../images/pf2.jpg");  
+}
+
+div#pf-img3{
+ background-image:url("../images/pf3.jpg");  
+}
+
+div#pf-img4{
+ background-image:url("../images/pf4.jpg");  
+}
+
+div#pf-img5{
+ background-image:url("../images/pf5.jpg");  
+}
+
+div.accoss-image{
+ box-sizing:border-box;
+ width:245px;
+ height:60px ;
+ background-color:#4aaaa5;
+ position:absolute;
+ color:#ffffff;
+ text-align:center;
+ padding:20px;
+ margin-top:100px;
+}
