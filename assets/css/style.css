@@ -256,29 +256,29 @@ input[type=submit] {
 @media screen and (max-width: 768px) {  
 		body{
 		 background-color : #d6c4e2;  
-    }
-    .container {
+        }
+        .container {
 		 width:100%;
 		 font-size:14px;
 		}    
 		h1,h2,h3,p {
-			font-weight:150;
-			line-height:30px; 
+		 font-weight:150;
+		 line-height:30px; 
 		}
 		h1{
-      font-size:30px;
+         font-size:30px;
 		}
 		#logo {
 		 width: 200px;
 		 height: 90px;
-	   font-size: 30px;
-	   font-weight: 300;
-	   line-height: 60px;
-    }
-    .work {
-	   width: 200px;
-	   margin: 10px 0 10px;
-    }
+	     font-size: 30px;
+	     font-weight: 300;
+	     line-height: 60px;
+        }
+        .work {
+	     width: 200px;
+	     margin: 10px 0 10px;
+        }
 }
 
 /** Phones  **/
@@ -292,25 +292,24 @@ input[type=submit] {
 		 font-size:12px;
 		}    
 		h1,h2,h3,p {
-			font-size:;
-			font-weight:100;
-			line-height:20px; 
+		 font-size:;
+		 font-weight:100;
+	     line-height:20px; 
 		}
 		h1{
-      font-size:20px;
+         font-size:20px;
 		}
-
 		#logo {
 		 width: 200px;
 		 height: 60px;
-	   font-size: 20px;
-	   font-weight: 100;
-	   line-height: 40px;
-    }
-    .work {
-	   width: 150px;
-	   margin: 5px 0 5px;
-    }
+	     font-size: 20px;
+	     font-weight: 100;
+	     line-height: 40px;
+        }
+        .work {
+	     width: 150px;
+	     margin: 5px 0 5px;
+        }
 }
 
 
