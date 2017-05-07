@@ -1,81 +1,75 @@
-<!-- Portfolio Page -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-<!-- Header section with style sheets links -->
- <head>
+
+<head>
   <meta charset="UTF-8">
-  <title>Basic Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Nelum</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
- </head>
-<!-- Body of the html -->
- <body>
-  <!-- Header section -->
-  <header>
-   <div class="contents">
-    <!--Name Tag -->
-    <div id="name-tag">Nelum</div>
-    <!-- Links for other papers -->
-    <div id="nav">
-     <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a><li>
-     </ul>
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Nelum</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-   </div>
   </header>
 
-  <!-- div container for main body -->
-  <div class="wide-container">
-   <!-- required size -->
-   <div class="contents"> 
-    <!-- Photo and Bio -->
-    <div class="container">
-     <section id="Details">
-      <h2> Portfolio</h2>
-      <hr>
-      <div class="portfolio" id="pf-img1">
-       <div class="accoss-image">Hangman</div>
-      </div>
-      <div class="portfolio" id="pf-img2">
-       <div class="accoss-image">RPG Game</div>
-      </div>
-      <div class="portfolio" id="pf-img3">
-       <div class="accoss-image">Trivia Game</div>
-      </div>
-      <div class="portfolio" id="pf-img4">
-       <div class="accoss-image">Rutgers Info Widget</div>
-      </div>
-      <div class="portfolio" id="pf-img5">
-       <div class="accoss-image">Rock Paper Scissors</div>
-      </div>
-     </section>
-     <aside>
-      <h3>Connect with Me</h3>
-      <hr>
-      <ul>
-       <li><a href="https://github.com/Dil2000" target="_blank">
-        <img class="links" src="assets/images/git.png" alt="Git">
-       </a></li>
-       <li><a href="https://www.linkedin.com/in/nelum-sam/" target="_blank">
-        <img class="links" src="assets/images/linked.png" alt="LinkedIn">
-       </a></li>
-       <li><a href="https://stackexchange.com/users/10520559/dnks" target="_blank">
-        <img class="links" src="assets/images/stackof.png" alt="Stack">
-       </a></li> 
-      </ul>
-     </aside>
-    </div><!-- end of details and links -->
-   </div> <!-- end of size 960 -->
-  </div> <!-- end of wide container -->
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
- <!-- Footer -->
-  <div class="contets">
-   <div id="footer-style">
-     <p id="footer">&copy Copyright 2017 Nelum Sam</p>
-    </div>
+      <div class="work">
+        <img src="assets/images/pf1.jpg" alt="hangman">
+
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/pf2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/pf3.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/pf4.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/pf5.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/git.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linked.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackof.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
   </div>
 
- </body>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Dilrukshi Nelum
+    </div>
+  </footer>
+</body>
+
 </html>
